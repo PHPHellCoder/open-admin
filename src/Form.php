@@ -183,7 +183,7 @@ class Form implements Renderable
     /**
      * @return Model
      */
-    public function model(): Model
+    public function model(): Model|\OpenAdmin\Admin\Actions\Interactor\Form
     {
         return $this->model;
     }
